@@ -122,3 +122,61 @@ header h1 {
     text-align: center;
     font-weight: bold;
 }
+@media (max-width: 768px) {
+  body {
+    margin: 10px;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 1.8em;
+    text-align: center;
+  }
+
+  .published-date {
+    text-align: center;
+    font-size: 0.85em;
+  }
+
+  .review-content {
+    flex-direction: column;
+  }
+
+  .book-info {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .book-info img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .details {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .ratings {
+    padding: 0;
+  }
+
+  .rating-category {
+    font-size: 0.95em;
+  }
+
+  .apraksts {
+    font-size: 1.2em;
+    margin-top: 20px;
+  }
+
+  .text {
+    font-size: 1em;
+    padding: 0 10px;
+    text-align: justify;
+  }
+}
